@@ -110,7 +110,7 @@ const TambahSantri = () => {
       payload.append("ibu", values.ibu);
       payload.append("telephone", values.telephone);
       payload.append("mulai_masuk", values.mulai_masuk);
-      payload.append("mulai_masuk", values.mulai_vakum);
+      payload.append("mulai_vakum", values.mulai_vakum);
       payload.append("pondokId", values.pondokId);
       payload.append("photo", values.photo);
 
